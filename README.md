@@ -20,63 +20,69 @@
 - **开发语言**：C++
 - **主要引用模块**：
   1. Qt核心组件: QObject, QMainWindow, QCoreApplication
-  2. QtWidgets: QMessageBox, QLabel, QTimer, QComboBox, QLCDNumber, QPushButton
-  3. Qt多线程: QtConcurrent, QFuture
+  2. QtWidgets: QMessageBox, QLabel, QComboBox, QLCDNumber, QPushButton
+  3. Qt多线程: QtConcurrent, QFuture, QTimer
   4. STL标准库: vector
 
 ## 项目结构
 
-|   Elevator.pro
-|   
-+---Headers
-|   |   elevator.h
-|   |   mainwindow.h
-|   |   
-+---Sources
-|   |    elevator.cpp
-|   |    main.cpp
-|   |    mainwindow.cpp
-|   |   
-+---Forms
-|   |   mainwindow.ui
-|   |   
-+---Resources
-      \\---release
-            \\---image.qrc
-                   \\---pic
-                             alert.png
-                             close.png
-                             disabled.png
-            				 dooropen.png
-            				 down.png
-            			 	downbtn.png
-            				 logo.png
-           				  open.png
-      				       stop.png
-   				          up.png
-        				     upbtn.png
+│  Document.md
+│  README.md
+│
+├─Elevator_src
+│  │  elevator.cpp
+│  │  elevator.h
+│  │  Elevator.pro
+│  │  Elevator.pro.user
+│  │  image.qrc
+│  │  logo.ico
+│  │  main.cpp
+│  │  mainwindow.cpp
+│  │  mainwindow.h
+│  │  mainwindow.ui
+│  │
+│  └─pic
+│          alert.png
+│          close.png
+│          disabled.png
+│          dooropen.png
+│          down.png
+│          downbtn.png
+│          logo.png
+│          open.png
+│          stop.png
+│          up.png
+│          upbtn.png
+│
+└─img
+        class.svg
+        show.png
+        test1.png
+        test2.png
+        test3.png
+        test4.png
 
 ## 操作说明
 
 - 双击运行`Elevator.exe`，进入电梯模拟系统。
 
-<img src="D:\CODE\Qt\Elevator\Elevator\img\test1.png" width = "600" alt="test1" align=center />
+<img src="./img\test1.png" width = "600" alt="test1" align=center />
 
 - 点击每部电梯的功能键（开/关门键，报警按钮，楼层按钮），模拟电梯内部命令。
 
-<img src="D:\CODE\Qt\Elevator\Elevator\img\test2.png" width = "600" alt="test2" align=center />
+<img src="./img\test2.png" width = "600" alt="test2" align=center />
 
-<img src="D:\CODE\Qt\Elevator\Elevator\img\test3.png" width = "600" alt="test3" align=center />
+<img src="./img\test3.png" width = "600" alt="test3" align=center />
 
 - 在上方下拉框中选择楼层，并点击旁边的上/下行按钮，模拟电梯外部命令。
 
-<img src="D:\CODE\Qt\Elevator\Elevator\img\test4.png" width = "600" alt="test4" align=center />
+<img src="./img\test4.png" width = "600" alt="test4" align=center />
 
 ## 系统分析
 
 ### 界面设计
 
-<img src="D:\CODE\Qt\Elevator\Elevator\img\show.png" width = "600" alt="show" align=center />
+<img src="./img\show.png" width = "600" alt="show" align=center />
 
 ### 状态设计
 

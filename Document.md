@@ -1,8 +1,6 @@
-# 电梯调度
-
-## 目录
-
 [toc]
+
+# 电梯调度
 
 ## 项目需求
 
@@ -30,35 +28,41 @@
 
 ## 项目结构
 
-|   Elevator.pro
-|   
-+---Headers
-|   |   elevator.h
-|   |   mainwindow.h
-|   |   
-+---Sources
-|   |    elevator.cpp
-|   |    main.cpp
-|   |    mainwindow.cpp
-|   |   
-+---Forms
-|   |   mainwindow.ui
-|   |   
-\\---Resources
-      \\---release
-            \\---image.qrc
-                   \\---pic
-                             alert.png
-                             close.png
-                             disabled.png
-            				 dooropen.png
-            				 down.png
-            			 	downbtn.png
-            				 logo.png
-           				  open.png
-      				       stop.png
-   				          up.png
-        				     upbtn.png
+│  Document.md
+│  README.md
+│
+├─Elevator_src
+│  │  elevator.cpp
+│  │  elevator.h
+│  │  Elevator.pro
+│  │  Elevator.pro.user
+│  │  image.qrc
+│  │  logo.ico
+│  │  main.cpp
+│  │  mainwindow.cpp
+│  │  mainwindow.h
+│  │  mainwindow.ui
+│  │
+│  └─pic
+│          alert.png
+│          close.png
+│          disabled.png
+│          dooropen.png
+│          down.png
+│          downbtn.png
+│          logo.png
+│          open.png
+│          stop.png
+│          up.png
+│          upbtn.png
+│
+└─img
+        class.svg
+        show.png
+        test1.png
+        test2.png
+        test3.png
+        test4.png
 
 ## 操作说明
 
