@@ -26,6 +26,7 @@
 
 ## 项目结构
 
+```
 │  Document.md
 │  README.md
 │
@@ -61,6 +62,7 @@
         test2.png
         test3.png
         test4.png
+```
 
 ## 操作说明
 
@@ -104,4 +106,4 @@
 
 ### 类设计
 
-<img src="D:\CODE\Qt\Elevator\Elevator\img\class.svg" width = "600" alt="class" align=center />
+<img src="./img\class.svg" width = "600" alt="class" align=center />
