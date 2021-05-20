@@ -236,7 +236,7 @@ void Elevator::eleAlert(MainWindow* win, int whichEle)
    - 如果`flag`为0，说明是响应开门按钮，则将单独的**开门线程**`doorOpenThread`运行3秒。
 3. 将电梯门状态`doorStatus`设为`DOOR_CLOSE`。
 
-```
+```c++
 void Elevator::openDoor(int flag = 0)
 {
     doorStatus = DOOR_OPEN;
