@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pic/close.png</file>
+        <file>pic/dooropen.png</file>
+        <file>pic/down.png</file>
+        <file>pic/downbtn.png</file>
+        <file>pic/open.png</file>
+        <file>pic/stop.png</file>
+        <file>pic/up.png</file>
+        <file>pic/upbtn.png</file>
+        <file>pic/logo.png</file>
+        <file>pic/alert.png</file>
+        <file>pic/disabled.png</file>
+    </qresource>
+</RCC>
