@@ -86,24 +86,9 @@
 
 <img src="./img\show.png" width = "600" alt="show" align=center />
 
-### 状态设计
-
-1. **电梯状态：**
-   - `#define STANDSTILL 0` //停
-   - `#define GOING_UP 1`//上行
-   - `#define GOING_DOWN -1`//下行
-   - `#define BROKENDOWN 200`//损坏
-2. **电梯门状态：**
-   - `#define DOOR_OPEN 0`//正在开门
-   - `#define DOOR_CLOSE 1`//关门
-3. **电梯信息：**
-   - `#define FLOOR_MAX 20`//楼层数
-   - `#define ELEVATOR_NUM 5`//电梯数
-   - `#define DOOR_OPEN_TIME 3`//开门时间（秒）
-4. **响应外部命令时可调度性：**
-   - `#define INFINITE 200`//无穷大
-   - `#define OUTOFWAY 100`//不顺路
-
 ### 类设计
 
 <img src="./img\class.svg" width = "600" alt="class" align=center />
+
+[详细文档介绍](Document.md)
+
