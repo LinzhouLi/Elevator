@@ -68,27 +68,27 @@
 
 - 双击运行`Elevator.exe`，进入电梯模拟系统。
 
-<img src="./img\test1.png" width = "600" alt="test1" align=center />
+<img src="img\test1.png" width = "600" alt="test1" align=center />
 
 - 点击每部电梯的功能键（开/关门键，报警按钮，楼层按钮），模拟电梯内部命令。
 
-<img src="./img\test2.png" width = "600" alt="test2" align=center />
+<img src="img\test2.png" width = "600" alt="test2" align=center />
 
-<img src="./img\test3.png" width = "600" alt="test3" align=center />
+<img src="img\test3.png" width = "600" alt="test3" align=center />
 
 - 在上方下拉框中选择楼层，并点击旁边的上/下行按钮，模拟电梯外部命令。
 
-<img src="./img\test4.png" width = "600" alt="test4" align=center />
+<img src="img\test4.png" width = "600" alt="test4" align=center />
 
 ## 系统分析
 
 ### 界面设计
 
-<img src="./img\show.png" width = "600" alt="show" align=center />
+<img src="img\show.png" width = "600" alt="show" align=center />
 
 ### 类设计
 
-<img src="./img\class.svg" width = "600" alt="class" align=center />
+<img src="img\class.svg" width = "600" alt="class" align=center />
 
 [详细文档介绍](Document.md)
 
